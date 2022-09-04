@@ -1,0 +1,140 @@
+.title,.navigationTab,.name,.summary{
+    /* border: 1px solid crimson; */
+
+}
+
+.title {
+    display: flex;
+    background: #4643f1;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 4em;
+    color: #f5e8c7;
+    padding: 0.75em;
+    position: 00;
+}
+.navigationTab {
+    display: flex;
+    flex-direction: row;
+    background: #f5e8c7;
+    padding: 1em;
+    justify-content: space-around;
+}
+.tab{
+    display: flex;
+    /* font-family: cursive; */
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+
+}
+
+.btn {
+    padding: 1em;
+    border: unset;
+    background-color: #4643f1;
+}
+.head {
+    background-color: #4643f1;
+}
+body{
+
+    font-family: system-ui;
+    background: #f5e8c7;
+    /* min-width:100vw;
+        min-height:95vh; */
+
+}
+.name{
+
+        display: flex;
+        font-family: system-ui;
+
+
+        font-size: 45px;
+
+}
+.summary{
+    display: flex;
+    font-size: 25px;
+    font-family: system-ui;
+}
+.info{
+    max-width: 24em;
+
+}
+.contentLayout{
+    display: flex;
+    /* justify-content: center; */
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10em;
+}
+.details{
+    border: solid;
+    max-width: 40em;
+    color: #4643f1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+.detailsAllign{
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+}
+
+td {
+    /* background-color: #4643f1;
+    color: white; */
+    padding: 2em;
+    font-style: italic;
+    font-size: large;
+}
+
+.heading {
+    background-color: gray;
+    color: white;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
+.border-exp{
+    display: flex;
+    flex-direction: row;
+    /* max-width: 35em; */
+}
+.m-pad {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: solid;
+    margin:1em;
+    min-width: 30em;
+}
+
+.m-pad .position{
+
+    font-size: 2em;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+}
+
+
+.m-pad .company{
+
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
